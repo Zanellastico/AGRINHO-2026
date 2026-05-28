@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Sustentável - Produzir e Preservar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
+  <!-- Cabeçalho -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl">🌾</span>
+        <h1 class="text-2xl font-bold">Agro Sustentável</h1>
+      </div>
+      
+      <nav class="hidden md:flex gap-8 text-lg">
+        <a href="#producao" class="hover:text-green-700">Produção</a>
+        <a href="#sustentabilidade" class="hover:text-green-700">Sustentabilidade</a>
+        <a href="#desafios" class="hover:text-green-700">Desafios</a>
+        <a href="#solucoes" class="hover:text-green-700">Soluções</a>
+        <a href="#interativos" class="hover:text-green-700">Interativos</a>
+      </nav>
+      
+      <button onclick="alert('Calculadora de Impacto em desenvolvimento')" 
+              class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800">
+        Calcule seu Impacto
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="bg-cover bg-center h-screen flex items-center justify-center text-white relative" 
+           style="background-image: url('https://source.unsplash.com/random/1600x900/?farm,drone');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 text-center max-w-4xl px-6">
+      <h2 class="text-5xl md:text-6xl font-bold mb-6">
+        Produzir mais, preservar melhor
+      </h2>
+      <p class="text-xl mb-8">O futuro sustentável do agronegócio brasileiro</p>
+      <a href="#producao" class="bg-green-600 hover:bg-green-700 px-10 py-4 rounded-full text-lg font-semibold inline-block">
+        Saiba Mais
+      </a>
+    </div>
+  </section>
+
+  <!-- Seção 1 - Produção Agrícola -->
+  <section id="producao" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Produção Agrícola</h2>
+      <div class="prose max-w-none">
+        <p>O agronegócio é responsável por cerca de 23-29% do PIB brasileiro, gera milhões de empregos e é um dos principais responsáveis pelo superávit da balança comercial.</p>
+        <p>Alimenta o mundo com grãos, carnes, fibras e bioenergia, fortalecendo especialmente as economias do Centro-Oeste, Sul e Sudeste.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 2 - Sustentabilidade -->
+  <section id="sustentabilidade" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Sustentabilidade no Campo</h2>
+      <div class="prose max-w-none">
+        <p>Produção que atende as demandas atuais sem comprometer o futuro. Inclui práticas como conservação do solo, rotação de culturas, plantio direto e Integração Lavoura-Pecuária-Floresta (ILPF).</p>
+        <p>Uso de energias limpas como solar, biogás e bioenergia nas propriedades rurais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 3 - Tecnologias Sustentáveis -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Tecnologias Sustentáveis</h2>
+      <ul class="grid md:grid-cols-2 gap-6 list-disc pl-6 max-w-4xl mx-auto">
+        <li>Agricultura de precisão (GPS, sensores, IA)</li>
+        <li>Irrigação inteligente (economia de até 30% de água)</li>
+        <li>Drones agrícolas para monitoramento e pulverização</li>
+        <li>Energia renovável (solar e biogás)</li>
+        <li>Big Data, robótica e inteligência artificial</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção 4 - Impactos Ambientais -->
+  <section id="desafios" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Impactos Ambientais</h2>
+      <div class="prose max-w-none">
+        <p>Desmatamento associado à expansão agrícola, uso intensivo de água, emissões de gases de efeito estufa, erosão do solo e perda de biodiversidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 5 - Soluções -->
+  <section id="solucoes" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Soluções e Futuro</h2>
+      <div class="prose max-w-none">
+        <p>Agricultura regenerativa, intensificação sustentável, cumprimento do Código Florestal, tecnologias de baixo carbono e monitoramento via satélite.</p>
+        <p>Visão de futuro: agronegócio carbono neutro ou positivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Interativos -->
+  <section id="interativos" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-12">Conscientização e Interatividade</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Quiz</h3>
+          <p>Teste seus conhecimentos sobre agronegócio sustentável.</p>
+          <button class="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg">Iniciar Quiz</button>
+        </div>
+        
+        <div class="bg-white p-8 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Calculadora de Impacto</h3>
+          <p>Estime seu impacto ambiental no agronegócio.</p>
+          <button onclick="alert('Calculadora em desenvolvimento')" 
+                  class="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg">Calcular Agora</button>
+        </div>
+        
+        <div class="bg-white p-8 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Galeria</h3>
+          <p>Imagens e vídeos de práticas sustentáveis.</p>
+          <button class="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg">Ver Galeria</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Agro Sustentável</h3>
+          <p>Produzir com responsabilidade, preservar o futuro.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Navegação</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-green-400">Home</a></li>
+            <li><a href="#producao" class="hover:text-green-400">Produção</a></li>
+            <li><a href="#sustentabilidade" class="hover:text-green-400">Sustentabilidade</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Contato</h4>
+          <p>contato@agrosustentavel.com.br</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Redes Sociais</h4>
+          <p>Instagram | LinkedIn | YouTube</p>
+        </div>
+      </div>
+      <hr class="my-8 border-gray-700">
+      <p class="text-center text-sm">© 2026 Agro Sustentável - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
